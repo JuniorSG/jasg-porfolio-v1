@@ -15,6 +15,7 @@ import {
   faPython,
   faReact,
   faSass,
+  
 } from '@fortawesome/free-brands-svg-icons'
 
 const Skills = () => {
@@ -95,19 +96,6 @@ const Skills = () => {
             <div className="skill-bar">
               <FontAwesomeIcon
                 className="skill-icon"
-                icon={faBootstrap}
-                color="#5ccfee"
-              />
-              <FontAwesomeIcon
-                className="skill-icon"
-                icon={faSass}
-                color="#EC4D28"
-              />
-              <div className="cssbar"></div>
-            </div>
-            <div className="skill-bar">
-              <FontAwesomeIcon
-                className="skill-icon"
                 icon={faPython}
                 color="#EFD81D"
               />
@@ -141,12 +129,8 @@ const Skills = () => {
           </div>
         </div>
         <div className="proyects">
+        <h2>&lt;SomeProyects/&gt;</h2>
           <img src={require('../../assets/images/PreImg1.png')} alt="img1" />
-          <img src={require('../../assets/images/PreImg2.png')} alt="img2" />
-          <img src={require('../../assets/images/PreImg7.png')} alt="img7" />
-          <img src={require('../../assets/images/PreImg8.png')} alt="img8" />
-          <h2>&lt;SomeProyects/&gt;</h2>
-
           <a href="https://linkedin-clone-yt-cd9ca.web.app/" target="_blank">
             <img
               src={require('../../assets/images/LinkedInClone.png')}
@@ -157,18 +141,9 @@ const Skills = () => {
             <img src={require('../../assets/images/movie.png')} alt="movie" />
           </a>
 
-          <a href="https://mvmod.vercel.app/" target="_blank">
-            <img
-              src={require('../../assets/images/moviemod.png')}
-              alt="moviemod"
-            />
-          </a>
-
           <a href="https://rx78sensormb.vercel.app/" target="_blank">
             <img src={require('../../assets/images/mst.png')} alt="mst" />
           </a>
-          {/* <h1 className="demos">Demos</h1> */}
-          {/* <h1 className="landingpages">Landingpages</h1> */}
         </div>
       </div>
       <Loader type="pacman" />

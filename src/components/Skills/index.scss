@@ -4,7 +4,7 @@
   width: 700px;
   height: auto;
   position: absolute;
-  right: 0;
+  left: 55%;
   top: 20vh;
   animation: fadeIn 5s 2s backwards;
   margin-right: 10px;
@@ -97,7 +97,7 @@
     width: 200px;
     height: 20px;
     background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, #ffffff 0%, #00f7ff 35%, #00001a 35%);
+    background: linear-gradient(90deg, #ffffff 0%, #00f7ff 65%, #00001a 35%);
   }
   .enbar {
     border: 1px solid #fff;
