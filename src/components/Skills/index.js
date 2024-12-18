@@ -56,7 +56,7 @@ const Skills = () => {
               idx={15}
             />
           </h1>
-          <div className="skill-container">
+          {/* <div className="skill-container">
             <div className="skill-bar">
               <FontAwesomeIcon
                 className="skill-icon"
@@ -126,12 +126,12 @@ const Skills = () => {
               </div>
               <div className="frbar"></div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="proyects">
         <h2>&lt;SomeProyects/&gt;</h2>
           <img src={require('../../assets/images/PreImg1.png')} alt="img1" />
-          <a href="https://linkedin-clone-yt-cd9ca.web.app/" target="_blank">
+          <a href="https://linkedin-jrsg.vercel.app" target="_blank">
             <img
               src={require('../../assets/images/LinkedInClone.png')}
               alt="img3"
